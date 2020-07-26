@@ -23,13 +23,13 @@ With sensible defaults because writing boilerplate takes too much time.
 
 An example of an integration test that works with the great `sls offline` and the node-fetch package.
 
-Simply :
+Simply run :
 
 ```bash
 yarn test
 ```
 
-A Github Action basic pipeline is setup with yarn caching and tests, check .github/workflows/main.yaml
+> A Github Action basic pipeline is setup with yarn caching and tests, check .github/workflows/main.yaml
 
 ### 📴 Serverless offline dev/start/stop script with pm2
 
@@ -46,3 +46,5 @@ A Github Action basic pipeline is setup with yarn caching and tests, check .gith
 -   `offline:stop` : Terminate the pm2 process(es) cleanly
 
 Check offline.ts if you need custom behavior.
+
+> View this repository on GitHub: <https://github.com/Hebilicious/serverless-esbuild-template>
