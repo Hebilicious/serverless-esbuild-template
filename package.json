@@ -1,9 +1,5 @@
 {
     "name": "serverless-esbuild-template",
-    "main": "handler.js",
-    "dependencies": {
-        "lodash": "^4.17.4"
-    },
     "devDependencies": {
         "@types/aws-lambda": "^8.10.59",
         "@types/jest": "^26.0.7",

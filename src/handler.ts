@@ -1,4 +1,3 @@
-import _ from "lodash"
 import { APIGatewayProxyEvent, APIGatewayProxyHandler } from "aws-lambda"
 
 export const hello: APIGatewayProxyHandler = async (event: APIGatewayProxyEvent) => {
@@ -7,8 +6,7 @@ export const hello: APIGatewayProxyHandler = async (event: APIGatewayProxyEvent)
         statusCode: 200,
         body: JSON.stringify({
             message: "Go Serverless v1.0! Your function executed successfully!",
-            input: event,
-            lodash: _.VERSION
+            input: event
         })
     }
 
