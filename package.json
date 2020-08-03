@@ -12,7 +12,7 @@
         "@typescript-eslint/parser": "^3.7.0",
         "dotenv": "^8.2.0",
         "esbuild-register": "^1.0.2",
-        "eslint": "^7.5.0",
+        "eslint": "^7.6.0",
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-import": "^2.22.0",
         "eslint-plugin-jest": "^23.18.2",
