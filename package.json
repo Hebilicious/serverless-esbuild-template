@@ -42,6 +42,7 @@
         "offline:dev": "yarn ts scripts/offline.ts dev",
         "offline:start": "yarn ts scripts/offline.ts start",
         "offline:stop": "yarn ts scripts/offline.ts stop",
-        "deploy": "sls deploy"
+        "deploy": "sls deploy",
+        "destroy": "sls remove"
     }
 }
