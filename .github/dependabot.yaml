@@ -4,4 +4,6 @@ updates:
       directory: "/"
       schedule:
           interval: weekly
-      open-pull-requests-limit: 3
+      labels:
+          - "node dependencies"
+      open-pull-requests-limit: 5
