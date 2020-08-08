@@ -1,9 +1,6 @@
 import execa from "execa"
 import fetch from "node-fetch"
-import { offlineUrl, waitForPort } from "../../scripts/helpers"
-
-const httpPort = process.env.SLS_OFFLINE_HTTP_PORT || 3000
-const lambdaPort = process.env.SLS_OFFLINE_LAMBDA_PORT || 3000
+import { httpPort, lambdaPort, offlineUrl, waitForPort } from "../../scripts/helpers"
 
 beforeAll(async () => {
     const timeout = 15000
