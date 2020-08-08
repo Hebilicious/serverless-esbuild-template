@@ -29,6 +29,7 @@
         "serverless-offline": "^6.4.0",
         "tcp-port-used": "^1.0.1",
         "ts-jest": "^26.1.4",
+        "ts-node": "^8.10.2",
         "typescript": "^3.9.7"
     },
     "scripts": {

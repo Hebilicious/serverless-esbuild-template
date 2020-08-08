@@ -22,6 +22,7 @@ module.exports = {
             "error",
             { functions: false, classes: true, variables: false, typedefs: true }
         ],
+        "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/explicit-function-return-type": [
