@@ -9,10 +9,11 @@ export const offlineUrl = ({ env = "dev", port = httpPort, path }) => `http://lo
 export const waitForPort = async ({ port = 3002, retries = 250, timeout = 10000 }) => {
     try {
         await tcp.waitUntilUsed(port, retries, timeout)
-        console.log(`Port ${port} is ready.`)
+        // console.log(`Port ${port} is ready.`)
         return true
     } catch (error) {
-        console.log(`Something went wrong with port ${port}... ${error.message}`)
+        console.error(`Something went wrong with port ${port}... ${error.message}`)
+        throw error
     }
 }
 
