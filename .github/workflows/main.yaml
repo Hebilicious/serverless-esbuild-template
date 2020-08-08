@@ -31,10 +31,9 @@ jobs:
             - name: Run Tests
               run: yarn test
 
-            - uses: actions/upload-artifact@v2
-              if: always()
-              with:
-                  path: example/pm2.log
+            # - uses: actions/upload-artifact@v2
+            #   with:
+            #       path: pm2.log
 
             - name: Deploy
               run: echo "Deploying with yarn deploy..."
