@@ -5,6 +5,30 @@
 This is a template repository to get you started really quickly with the serverless framework and typescript, using the incredible esbuild.
 It is slighlty opinionated.
 
+## TL:DR => How to use
+
+```bash
+# Make sure you have a modern node environment (example: node 14+, yarn)
+# Make sure you have AWS credentials https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
+
+# Install dependencies
+yarn
+
+# Make sure everything works ™
+yarn test
+
+# Bundle your code and deploy it (This creates the needed AWS resources, Lambda, apiGw, s3...)
+# Deploy will output the URL, refer to serverless documentation to see how everything gets mapped from the serverless.yml
+# Everything is configurable, the default stage is dev, and default region is us-east-1
+yarn deploy
+
+# Example using curl to test your deployed lambda (make sure to use the correct url)
+curl https://00000000.execute-api.us-east-1.amazonaws.com/dev/hello | jq
+
+# Remove service (Removes everything created by sls deploy)
+yarn remove
+```
+
 ## Features
 
 ### ⚡ serverless + esbuild = ❤
@@ -54,5 +78,12 @@ pm2 is a node process manager, very handy when you're dealing with several local
 -   `offline:stop` : Terminate the pm2 process(es) cleanly (based on the name, check offline.ts)
 
 Check offline.ts if you need custom behavior.
+
+### 🌀 Serverless.ts
+
+Use a serverless.ts files instead of a serverless.yml file for the configuration.
+You can delete the serverless.ts and rename serverless.example.yml to serverless.yml if you prefer yaml.
+Refer to the [docs](https://www.serverless.com/framework/docs/providers/aws/guide/intro/).
+More info in the [PR](https://github.com/serverless/serverless/pull/7755).
 
 > View this repository on GitHub: <https://github.com/Hebilicious/serverless-esbuild-template>
