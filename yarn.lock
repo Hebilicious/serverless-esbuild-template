@@ -1328,7 +1328,7 @@
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
-"@types/lodash@4.14.158", "@types/lodash@^4.14.123":
+"@types/lodash@^4.14.123":
   version "4.14.158"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.158.tgz#b38ea8b6fe799acd076d7a8d7ab71c26ef77f785"
   integrity sha512-InCEXJNTv/59yO4VSfuvNrZHt7eeNtWQEgnieIA+mIC+MOWM9arOWG2eQ8Vhk6NbOre6/BidiXhkZYeDY9U35w==
@@ -3365,6 +3365,11 @@ esbuild@^0.5.9:
   version "0.5.26"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.5.26.tgz#0868e8f3e0938c6cb9a8c93e74f85900eff1a071"
   integrity sha512-OopLmIbQNOWBWMBoOtHjDEaIiTI2okEpRkbiKccfatnXJtsGazwWhR0dmvY8ynjLx/BOPS9mQ6QFl7J1BQCcaQ==
+
+esbuild@^0.6.18:
+  version "0.6.18"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.6.18.tgz#50e817ad591ed0057c018c7c72609f96df19d3f4"
+  integrity sha512-yrDn3yjKOcocUgqAk//VyEDCc3TJd7J6pNgcEZ9tsFjLuCkGk/gdOyqCwXH9T1hVK8eT5XGlSNWKqoQNHTMoUg==
 
 escape-goat@^2.0.0:
   version "2.1.1"
