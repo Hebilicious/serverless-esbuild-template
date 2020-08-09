@@ -35,7 +35,7 @@ yarn remove
 
 -   Built on top of the incredible [esbuild](https://github.com/evanw/esbuild), mad props to [@evanw](https://github.com/evanw)
 -   Refer to [serverless-esbuild](https://github.com/floydspace/serverless-esbuild) for the plugin documentation, credits to [@floydspace](https://github.com/floydspace)
--   Includes the amazing [esbuild-register](https://github.com/floydspace/serverless-esbuild), thanks to [@egoist](https://github.com/egoist)
+-   Includes the amazing [esbuild-register](https://github.com/egoist/esbuild-register), thanks to [@egoist](https://github.com/egoist)
 
 ```bash
 node -r esm -r esbuild-register script.ts #Aliased to TS for your convenience
