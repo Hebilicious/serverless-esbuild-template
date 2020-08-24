@@ -3366,10 +3366,10 @@ esbuild@^0.5.9:
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.5.26.tgz#0868e8f3e0938c6cb9a8c93e74f85900eff1a071"
   integrity sha512-OopLmIbQNOWBWMBoOtHjDEaIiTI2okEpRkbiKccfatnXJtsGazwWhR0dmvY8ynjLx/BOPS9mQ6QFl7J1BQCcaQ==
 
-esbuild@^0.6.18:
-  version "0.6.18"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.6.18.tgz#50e817ad591ed0057c018c7c72609f96df19d3f4"
-  integrity sha512-yrDn3yjKOcocUgqAk//VyEDCc3TJd7J6pNgcEZ9tsFjLuCkGk/gdOyqCwXH9T1hVK8eT5XGlSNWKqoQNHTMoUg==
+esbuild@^0.6.27:
+  version "0.6.27"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.6.27.tgz#e8f4d6b3bb3b4156a5e5679b5b582561b075828d"
+  integrity sha512-oonxxg/ExZt9tYMPnEUDYAN7YefEPsC21pXez5rwKcCPAF6gzMuxLvAdbU4dCT8Tp0I2avODz61vrGyu5wR/uA==
 
 escape-goat@^2.0.0:
   version "2.1.1"
