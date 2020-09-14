@@ -10,7 +10,7 @@
         "@typescript-eslint/eslint-plugin": "^3.8.0",
         "@typescript-eslint/parser": "^3.8.0",
         "dotenv": "^8.2.0",
-        "esbuild": "^0.6.18",
+        "esbuild": "^0.6.34",
         "esbuild-register": "^1.0.2",
         "eslint": "^7.6.0",
         "eslint-config-prettier": "^6.11.0",
