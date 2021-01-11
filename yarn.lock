@@ -2359,10 +2359,10 @@ child-process-ext@^2.1.1:
     split2 "^3.1.1"
     stream-promise "^3.2.0"
 
-chokidar@^3.3.0, chokidar@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.1.tgz#e905bdecf10eaa0a0b1db0c664481cc4cbc22ba1"
-  integrity sha512-TQTJyr2stihpC4Sya9hs2Xh+O2wf+igjL36Y75xx2WdHuiICcn/XJza46Jwt0eT5hVpQOzo3FpY3cj3RVYLX0g==
+chokidar@^3.3.0, chokidar@^3.4.1, chokidar@^3.4.3:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.0.tgz#458a4816a415e9d3b3caa4faec2b96a6935a9e65"
+  integrity sha512-JgQM9JS92ZbFR4P90EvmzNpSGhpPBGBSj10PILeDyYFwp4h2/D9OM03wsJ4zW1fEp4ka2DGrnUeD7FuvQ2aZ2Q==
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
@@ -2370,9 +2370,9 @@ chokidar@^3.3.0, chokidar@^3.4.1:
     is-binary-path "~2.1.0"
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
-    readdirp "~3.4.0"
+    readdirp "~3.5.0"
   optionalDependencies:
-    fsevents "~2.1.2"
+    fsevents "~2.3.1"
 
 ci-info@^1.5.0:
   version "1.6.0"
@@ -3361,10 +3361,10 @@ esbuild-register@^1.0.2:
     source-map-support "^0.5.19"
     strip-json-comments "^3.1.1"
 
-esbuild@^0.5.9:
-  version "0.5.26"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.5.26.tgz#0868e8f3e0938c6cb9a8c93e74f85900eff1a071"
-  integrity sha512-OopLmIbQNOWBWMBoOtHjDEaIiTI2okEpRkbiKccfatnXJtsGazwWhR0dmvY8ynjLx/BOPS9mQ6QFl7J1BQCcaQ==
+esbuild@>=0.8:
+  version "0.8.31"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.31.tgz#c21e7adb3ad283c951a53de7ad64a5ae2df2ed34"
+  integrity sha512-7EIU0VdUxltwivjVezX3HgeNzeIVR1snkrAo57WdUnuBMykdzin5rTrxwCDM6xQqj0RL/HjOEm3wFr2ijHKeaA==
 
 esbuild@^0.6.18:
   version "0.6.18"
@@ -4099,10 +4099,15 @@ fs2@^0.3.8:
     memoizee "^0.4.14"
     type "^2.0.0"
 
-fsevents@^2.1.2, fsevents@~2.1.2:
+fsevents@^2.1.2:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.1.3.tgz#fb738703ae8d2f9fe900c33836ddebee8b97f23e"
   integrity sha512-Auw9a4AxqWpa9GUfj370BMPzzyncfBABW8Mab7BGWBYDj4Isgq+cDKtx0i6u9jcX9pQDnswsaaOTgTmA5pEjuQ==
+
+fsevents@~2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.1.tgz#b209ab14c61012636c8863507edf7fb68cc54e9f"
+  integrity sha512-YR47Eg4hChJGAB1O3yEAOkGO+rlzutoICGqGo9EZ4lKWokzZRSyIW1QmTzqjtw8MJdj9srP869CuWw/hyzSiBw==
 
 ftp@~0.3.10:
   version "0.3.10"
@@ -5939,20 +5944,10 @@ lodash.memoize@4.x:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.now@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/lodash.now/-/lodash.now-4.0.2.tgz#5b5b0461aabc10ce7753505fd9d9b7278c8c6cc7"
-  integrity sha1-W1sEYaq8EM53U1Bf2dm3J4yMbMc=
-
 lodash.once@^4.0.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
   integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
-
-lodash.remove@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/lodash.remove/-/lodash.remove-4.7.0.tgz#f31d31e7c39a0690d5074ec0d3627162334ee626"
-  integrity sha1-8x0x58OaBpDVB07A02JxYjNO5iY=
 
 lodash.sortby@^4.7.0:
   version "4.7.0"
@@ -7405,10 +7400,10 @@ readable-stream@^3.0.0, readable-stream@^3.1.1, readable-stream@^3.4.0, readable
     string_decoder "^1.1.1"
     util-deprecate "^1.0.1"
 
-readdirp@~3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.4.0.tgz#9fdccdf9e9155805449221ac645e8303ab5b9ada"
-  integrity sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
+  integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
 
@@ -7745,16 +7740,15 @@ semver@~7.2.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.2.3.tgz#3641217233c6382173c76bf2c7ecd1e1c16b0d8a"
   integrity sha512-utbW9Z7ZxVvwiIWkdOMLOR9G/NFXh2aRucghkVrEMJWuC++r3lCkBC3LwqBinyHzGMAJxY5tn6VakZGHObq5ig==
 
-serverless-esbuild@^1.3.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.4.0.tgz#5011b088b932c942e8c219e39f739bb50c1b2a6b"
-  integrity sha512-5U+3f8IhvaEAWzoh3j7Bopx5uAOz58fTPDFT5j0VzVSdiQcNDDovUqBRG+T34ugUamO3yQgYaz/pqK6nfErJNw==
+serverless-esbuild@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.7.0.tgz#98db5ccf3a35152b2753dd33fa7ce2dda9683a26"
+  integrity sha512-sAzS4x0sreOnfzWThTwXsLc0xl0DYMaFZ39XgH8tFvv+eIE+QgLlL9M/Y04E+gLnFcYJZqW1Ayq+CMthNNI+Pw==
   dependencies:
-    esbuild "^0.5.9"
+    chokidar "^3.4.3"
+    esbuild ">=0.8"
     fs-extra "^9.0.1"
     globby "^11.0.1"
-    lodash.now "^4.0.2"
-    lodash.remove "^4.7.0"
     ramda "^0.27.0"
 
 serverless-offline@^6.4.0:
