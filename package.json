@@ -1,7 +1,7 @@
 {
     "name": "serverless-esbuild-template",
     "devDependencies": {
-        "@types/aws-lambda": "^8.10.59",
+        "@types/aws-lambda": "^8.10.95",
         "@types/jest": "^26.0.9",
         "@types/node": "^14.0.27",
         "@types/node-fetch": "^2.5.7",
